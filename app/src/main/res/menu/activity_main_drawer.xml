@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_cetegory"
+            android:icon="@drawable/ic_category"
+            android:title="@string/menu_cetegory" />
+        <item
+            android:id="@+id/nav_priority"
+            android:icon="@drawable/ic_priority"
+            android:title="@string/menu_priority" />
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_status"
+            android:title="@string/menu_status" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/ic_status"
+            android:title="@string/menu_note" />
+        <item
+            android:id="@+id/nav_account"
+            android:title="@string/menu_account" />
+        <item
+            android:id="@+id/nav_editprofile"
+            android:icon="@drawable/ic_editprofile"
+            android:title="@string/menu_editprofile" />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/ic_changepassword"
+            android:title="@string/menu_changepass" />
+
+
+    </group>
+</menu>

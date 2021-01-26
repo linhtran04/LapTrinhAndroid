@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Note App 2020</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Sing Up</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Sing Up</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_cetegory">Cetegory</string>
+    <string name="menu_priority">Priority</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_note">Note</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_editprofile">Editprofile</string>
+    <string name="menu_changepass">ChangePassword</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="lb_editProfile">Edit Profile</string>
+
+    //note
+    <string-array name="category">
+        <item name="Working">Working</item>
+        <item name="Relax">Relax</item>
+        <item name="Study">Study</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item name="High">High</item>
+        <item name="Medium">Medium</item>
+        <item name="Low">Low</item>
+    </string-array>
+    <string-array name="status">
+        <item name="Pending">Pending</item>
+        <item name="Processing">Processing</item>
+        <item name="Done">Done</item>
+    </string-array>
+
+    <string name="insert_full">Please Insert Full Your Information</string>
+
+</resources>

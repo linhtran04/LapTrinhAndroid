@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.loginnote.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.loginnote.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.loginnote.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_cetegory"
+        android:name="com.example.loginnote.ui.cetegory.Cetegory"
+        android:label="@string/menu_cetegory"
+        tools:layout="@layout/cetegory_fragment" />
+    <fragment
+        android:id="@+id/nav_priority"
+        android:name="com.example.loginnote.ui.priority.Priority"
+        android:label="@string/menu_priority"
+        tools:layout="@layout/priority_fragment" />
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="com.example.loginnote.ui.status.Satus"
+        android:label="@string/menu_status"
+        tools:layout="@layout/status_fragment" />
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.loginnote.ui.note.note"
+        android:label="@string/menu_note"
+        tools:layout="@layout/note_fragment" />
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.loginnote.ui.account.Account"
+        android:label="@string/menu_account"
+        tools:layout="@layout/account_fragment" />
+    <fragment
+        android:id="@+id/nav_editprofile"
+        android:name="com.example.loginnote.ui.editprofile.profile"
+        android:label="@string/menu_editprofile"
+        tools:layout="@layout/edit_profile_fragment" />
+    <fragment
+        android:id="@+id/nav_changepassword"
+        android:name="com.example.loginnote.ui.changepass.ChangePassword"
+        android:label="@string/menu_changepass"
+        tools:layout="@layout/change_password_fragment" />
+
+
+</navigation>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <Spinner
+        android:id="@+id/select_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="55dp"
+        android:entries="@array/category"/>
+
+    <Spinner
+        android:id="@+id/select_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="85dp"
+        android:entries="@array/priority"/>
+
+    <Spinner
+        android:id="@+id/select_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="115dp"
+        android:entries="@array/status"/>
+
+    <Button
+        android:id="@+id/open_calendar"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="145dp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/show_calendar"
+        android:layout_width="291dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="145dp"
+        android:text=""
+        android:textSize="40dp"/>
+
+</RelativeLayout>
